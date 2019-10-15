@@ -1,0 +1,61 @@
+.businessnav{
+	height: 250px;
+}
+.businessnav .navbar{
+	position: relative;
+}
+.businessnav .navbar  .navbar-right{
+	background: none;
+}
+.businessnav .navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFFFFF;
+}
+.businessnav .business-pic{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 250px;
+	min-width: 300px;
+}
+.businessnav .business-pic img{
+	height: 100%;
+	width: 100%;
+}
+.businessnav .navbar .navbar-header span, .businessnav .navbar-collapse ul li a {
+	color: #FFFFFF;
+}
+.businesss-logistics .logistics{
+	margin-top: 0;
+}
+/* 导航条 */
+.flexnav{
+	margin: 30px auto;
+}
+.flexnav .flexnav-view{
+	margin: 0 auto;
+}
+.flexnav-view-nav{
+	width: 580px;
+	margin: 0 auto;
+	
+}
+.flexnav-view-nav a{
+	font-size: 20px;
+	color: #333333;
+	padding: 0 30px; 
+}
+@media (min-width:768px) {
+	.businessnav,.businessnav .business-pic{
+		height: 360px;
+	}
+}
+@media (min-width:992px) {
+	.businessnav,.businessnav .business-pic{
+		height: 400px;
+	}
+}
+@media (min-width:1200px) {
+	.businessnav,.businessnav .business-pic{
+		height: 460px;
+	}
+}
